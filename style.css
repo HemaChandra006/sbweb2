@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+#imgd {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+}
+
+#cnts {
+    list-style: none;
+    background-color: hsl(209, 49%, 76%);
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#cnts a {
+    color: black;
+
+}
+
+#menu:hover #cntsd {
+    display: block;
+}
+
+#menu {
+    display: inline-block;
+    background-color: hsl(209, 49%, 76%);
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+}
+
+#menuu {
+    /* padding-left: 15px; */
+    display: block;
+    /* height: 20px; */
+}
+
+body {
+    background-image: url(images/pexels-photo-2680270.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flow-root;
+    background-repeat: no-repeat;
+}
+
+.cntss {
+    display: inline-flex;
+    width: 30%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid hsla(0, 0%, 69%, 0.719);
+    padding: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    /* background-image: url(images/image1.png); */
+    background-color: hsla(194, 65%, 41%, 0.678);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(34, 100%, 93%);
+    max-width: 300px;
+}
+
+.cntss:hover {
+    border: 2px solid hsl(0, 0%, 100%);
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px hsl(0, 0%, 83%);
+}
+
+.rw {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+}
+
+
+ul {
+    padding-top: 0;
+}
+
+#headerr {
+    background-color: hsl(209, 49%, 76%);
+}
+
+#cpr {
+    color: hsl(37, 13%, 74%);
+    padding-bottom: 0px;
+    margin-bottom: 0;
+
+}
+
+#fun {
+    color: hsl(60, 9%, 62%);
+}
+
+#ctm {
+    color: hsl(0, 30%, 60%);
+}
+
+a {
+    text-decoration: none;
+}
+
+#main2 {
+    display: none;
+}
+
+#btn {
+    text-align: center;
+    background-color: hsl(209, 49%, 76%);
+    border: 0px;
+}
+
+#cntsd {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@media screen and (max-width: 600px) {
+    #mainn {
+        display: none;
+    }
+
+    #main2 {
+        display: block;
+
+    }
+
+    .cntss {
+        width: 40%;
+        height: 130px;
+    }
+
+    #menuu {
+        height: 22px;
+    }
+
+    .rw {
+        height: 200px;
+
+    }
+}
